@@ -1,0 +1,14 @@
+Training scripts has example of traning scripts and real training data that is ready to run. Due to large training data, we only give some training scripts with small training data for reference. The trained weights can be retrieved from trained_weights/ folder
+
+For training scripts:
+
+pytorch is for reference only, it has similar functionality but mostly slower than sklearn on CPU.
+
+test_MLP_scaled.py is for testing the MLP with only dot-product operations (no dependency on framework) on test data. It is used to test for accuracy before GPU deployment. 
+
+Requirements : sklearn, numpy 
+
+Simply cd to the folder of the benchmark (for example, jmeint) and type python train_MLP_scaled.py
+
+For trained_weights, they are pickled files which can be used in the rewriting scripts in /benchmarks/scripts/
+

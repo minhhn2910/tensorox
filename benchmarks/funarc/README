@@ -1,0 +1,1 @@
+Arclength example, there is no dependency other than CUDA. First cd to the respective folder, then the compilation is simply done by running nvcc -arch=sm_xx funarc_ref.cu with sm_xx is your compute capability (e.g. >=sm_70) 

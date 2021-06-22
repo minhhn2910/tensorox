@@ -1,0 +1,11 @@
+{
+  "layer_dimension":[4,8,8,6],
+  "layer_description":"{4 × 8} -> {8 × 8} -> {8 × 6}",
+  "weight_file": "invk2j.weights",
+  "bias_file" : "invk2j.bias",
+  "source_file" : "sample.cu",
+  "destination_file" : "sample_approx.cu",
+  "means_in" : [-0.00047858, 1.4443, -0.0013808, 1.445],
+  "scales_in" : [0.8009, 1.4939, 0.8002, 1.4952],
+  "scales_out" : [100,100,100,100,100,100]
+}

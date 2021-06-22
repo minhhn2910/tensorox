@@ -1,0 +1,10 @@
+{
+    "jmeint_kernel": {
+        "InputRangeA": -1.0, 
+        "InputRangeB": 1.0, 
+        "OutputRangeA": 0.0, 
+        "OutputRangeB": 0.9, 
+        "nInputs": "18", 
+        "nOutputs": "1"
+    }
+}
