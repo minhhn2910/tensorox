@@ -1,5 +1,6 @@
-This is a POC script for rewriting CUDA code using trained weights. Requirements: pickle(protocol=3) of python3 and numpy
-usage python3 rewrite.py config.json
+* This is a POC script for rewriting CUDA code using trained weights. Requirements: pickle(protocol=3) of python3 and numpy
+
+* Usage: `python3 rewrite.py config.json`
 
 ### Code annotation:
 
