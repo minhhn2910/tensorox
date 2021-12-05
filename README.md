@@ -21,7 +21,7 @@ This repository shows how to use tensor instructions (e.g. wmma::mma_sync) to ap
 
 * Generally, each benchmark will have an original version in 1 folder (e.g. inversek2j/ ), the tensor version (100% approximated) is in the second folder (e.g. inversek2j_approx/ ). The auto tuning version to adjust speed/accuracy tradeoff by mixing both tensor version and float version are available at the third folder for each benchmark (e.g. inversek2j_approx_mixed).
 
-* Helper functions and tools are available at benchmarks/scripts/ folder.
+* Helper functions and tools to rewrite your programs are available at benchmarks/scripts/ folder.
 
 Please read the README file in each subfolder for further instruction on how to run each type of benchmarks because they belong to different benchmark suites.
 
